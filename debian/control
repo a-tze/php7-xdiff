@@ -1,0 +1,17 @@
+Source: php-xdiff
+Section: php
+Priority: extra
+Maintainer: Matthias Hunstock <atze@fem.tu-ilmenau.de>
+Uploaders: Matthias Hunstock <atze@fem.tu-ilmenau.de>
+Build-Depends: debhelper (>= 9), pkg-php-tools, libxdiff-dev
+Standards-Version: 3.9.6
+
+Package: php-xdiff
+Architecture: any
+Depends: ${misc:Depends}, ${phppear:Debian-Depends}, libxdiff0
+Recommends: ${phppear:Debian-Recommends}
+Suggests: ${phppear:Debian-Suggests}
+Breaks: ${phppear:Debian-Breaks}
+Description: ${phppear:summary}
+ ${phppear:description}
+

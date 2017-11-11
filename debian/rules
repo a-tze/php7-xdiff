@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --buildsystem=phppear --with phppear
+
+
+override_dh_auto_install:
+	dh_auto_install
+	mkdir -p $(CURDIR)/debian/php-xdiff/etc/php/7.0/mods-available/
+	install -m 644 $(CURDIR)/xdiff.ini $(CURDIR)/debian/php-xdiff/etc/php/7.0/mods-available/xdiff.ini
+
