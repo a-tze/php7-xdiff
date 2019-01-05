@@ -46,7 +46,7 @@
    <file md5sum="5b9f49c628942590c956b680ea1f7085" name="tests/file.1" role="test" />
    <file md5sum="16e05170b60081faba8fa5f954411542" name="tests/file.2" role="test" />
    <file md5sum="6d83b7d9093e377bef2db23aa40e5284" name="tests/file.bdiff" role="test" />
-   <file md5sum="5419dc1f96919e25f048ff2af97d57a2" name="tests/file_test.diff" role="test" />
+   <file md5sum="5419dc1f96919e25f048ff2af97d57a2" name="tests/file_test.diff.txt" role="test" />
    <file md5sum="d6bc8acee4189d4076a5fd18b489a76e" name="tests/merge1.h" role="test" />
    <file md5sum="61ea5547e98d58399a141087085b50e1" name="tests/merge2.h" role="test" />
    <file md5sum="8a0078cc880706030c840160812994e3" name="tests/merge3.h" role="test" />
